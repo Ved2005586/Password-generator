@@ -4,7 +4,7 @@ FROM tomcat:10.1-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your app folder into Tomcat's webapps directory
-COPY ./thjune26_p11_pg_app /usr/local/tomcat/webapps/thjune26_p11_pg_app
+COPY ./thjune26_p11_pg_app /usr/local/tomcat/webapps/ROOT
 
 EXPOSE 8080
 
